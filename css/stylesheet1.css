@@ -1,0 +1,227 @@
+/* -- CSS RESET -- */
+*{ padding: 0;
+  margin; 0;
+  font-size; 100%;
+  line-height: 1em;
+}
+body {
+width: 100%;
+max-width: 100%;
+font-family: 'PT Sans', sans-serif;
+  margin: auto;
+  color: black;
+line-height: 1.8em;
+}
+/*--Navigation--*/ 
+nav {padding: 1.7em;
+margin-bottom: 2em;
+background-color: black;
+}
+nav ul {text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+nav ul li {
+  display: inline;
+  margin: 40px;
+}
+nav a:hover {border-bottom: none;}
+
+nav monogram {float: left;}
+
+/*--Links--*/
+a {color: white;
+text-decoration: none;}
+
+a:hover {color: grey;
+border-bottom: 1px dotted; }
+
+/*--Headings--*/
+h1 {font-size: 3em;
+    text-align: center;}
+
+h2 {font-size: 20px;
+    text-align: center; 
+}
+h3 {font-size: 3em;
+    text-align: center;
+    color: white;
+}
+h4 {font-size: 2em;
+    text-align: left;
+    margin: 40px;}
+
+/*--Paragraph--*/
+p, li {margin: 100px;
+line-height: 30px;
+font-size: 20px;
+letter-spacing: 2px;}
+
+p {font-size: 25px;
+    margin-left: 12em;
+    margin-right: 12em;
+line-height: 40px;
+letter-spacing: 2px;
+ }
+
+hr {width: 10%;
+    height: 1px;
+background-color: white;
+color: white;}
+
+/* --Divs-- */
+.nav {background-color: black;
+height: 70px;
+ width: 100%;}
+
+.businesscard {background: #ededed;}
+
+.brief h1 {color: black;}
+.brief {background-color:#ededed;
+        color: black;
+padding-top: 1em;
+padding-bottom: 5px;}
+
+.process h1 {color: white;}
+.process h2 {color: white;
+padding-top: 15px;}
+.process {background-color:black;
+    padding-top: 1em;
+    padding-bottom: 6em;}
+
+.contact {background-color: #ededed;
+    padding-top: 1em;
+    padding-bottom: 10em;}
+
+/*--Images--*/
+img { display: block;
+margin: auto;
+    padding-top: -2em;
+    max-width: 100%;}
+
+.monogram {padding-top: -5em;
+    float: left;}
+
+.businesscard {float: center;
+padding-bottom: 50px;}
+
+.me {border-radius: 50%;
+}
+.heart {padding-top: 3em;}
+.arrow {padding-top: 1em;
+padding-bottom: 2em;}
+
+.businesscard {float: center;
+padding-bottom: 50px;}
+
+/*--Image Grid--*/ 
+#rig {
+    max-width:100%;
+    margin: auto;
+    font-size:0; 
+    list-style:none;
+    background-color: black;
+    padding-bottom: 2em;
+}
+#rig li {
+    display: inline-block;
+    *display:inline;
+    width: 95%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin-left: 10em;
+    padding:0;
+}
+            
+/* Image layer */
+.rig-img {
+    display:block;
+    width: 95%;
+    height: 18em;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+    padding-top: 2em;
+}
+        
+@media (max-width: 8000px) {
+    #rig li {
+        width:25%;
+    }
+}
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+/*--Icons--*/
+.icons { 
+
+margin: 0 auto;
+    padding-top: 4em;
+    width: 25em;
+
+}
+
+.icons:hover img{
+    opacity: .6;
+    transform: scale(.90);
+}
+
+.icons img:hover{ opacity: 1;
+transform: scale(1.1);
+}
+
+.icons img {float: left; 
+    transition: all .2s ease-in-out;
+margin-left: 4em;
+}
+
+/*--Footer--*/ 
+footer {width: 100%; 
+background-color: black; 
+color: white;
+text-align: center;
+padding-bottom: 1em;}
+
+footer article { padding-bottom: 20px;}
+
+/*--tablet--*/
+@media (max-width: 1000px) {
+    
+    
+    
+  body{
+/*    background-color: #8080ff;*/
+    width: 100%;
+    
+    }
+
+    article p {
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+    
+  /*--smartphone--*/
+  @media (max-width: 500px) {
+    article p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+      nav ul {text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+nav ul li {
+  display: inline;
+  margin: 3px;
+
+  }
+  }
