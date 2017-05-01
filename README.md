@@ -1,3 +1,3 @@
 # portfoliowebsite
 
-- [Portfolio Webiste](http://evamariagarcia.github.io/portfoliowebsite/index.html) 
+- [Portfolio Website](http://evamariagarcia.github.io/portfoliowebsite/index.html) 
