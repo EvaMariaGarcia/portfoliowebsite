@@ -108,8 +108,7 @@ margin: auto;
 .businesscard {float: center;
 padding-bottom: 50px;}
 
-.me {border-radius: 50%;
-}
+.me {border-radius: 50%;}
 .arrow {padding-top: 1em;
 padding-bottom: 2em;}
 
@@ -124,8 +123,6 @@ body {
 }
 
 .heart:hover{
-	font-size: 150px;
-	color: #e00;
 	animation: beat .25s infinite alternate;
     transform-origin: center;}
 
