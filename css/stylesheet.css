@@ -31,10 +31,13 @@ nav monogram {float: left;}
 
 /*--Links--*/
 a {color: white;
-text-decoration: none;}
+text-decoration: none; }
 
-a:hover {color: grey;
-border-bottom: 1px dotted; }
+nav a:hover {color: white;
+border-bottom: 1px dotted;
+background: #B2C4AB;
+padding: 10px 10px 10px 10px;
+}
 
 /*--Headings--*/
 h1 {font-size: 3em;
@@ -111,12 +114,30 @@ padding-bottom: 50px;}
 
 .me {border-radius: 50%;
 }
-.heart {padding-top: 3em;}
+
 .arrow {padding-top: 1em;
 padding-bottom: 2em;}
 
 .businesscard {float: center;
 padding-bottom: 50px;}
+
+/*--Heart Image CSS Transition--*/ 
+
+/* just some  styling*/
+body { 
+  text-align: center;
+}
+
+.heart:hover{
+	font-size: 150px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+    transform-origin: center;}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
 
 /*--Image Grid--*/ 
 #rig {

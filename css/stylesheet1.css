@@ -33,8 +33,11 @@ nav monogram {float: left;}
 a {color: white;
 text-decoration: none;}
 
-a:hover {color: grey;
-border-bottom: 1px dotted; }
+nav a:hover {color: white;
+border-bottom: 1px dotted;
+background: #B2C4AB;
+padding: 10px 10px 10px 10px;
+}
 
 /*--Headings--*/
 h1 {font-size: 3em;
