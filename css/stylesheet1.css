@@ -117,6 +117,24 @@ padding-bottom: 2em;}
 .businesscard {float: center;
 padding-bottom: 50px;}
 
+
+/*--Heart Image CSS Transition--*/ 
+
+body { 
+  text-align: center;
+}
+
+.heart:hover{
+	font-size: 150px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+    transform-origin: center;}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
 /*--Image Grid--*/ 
 #rig {
     max-width:100%;
